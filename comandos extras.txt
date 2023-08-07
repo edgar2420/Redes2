@@ -1,0 +1,4 @@
+erase startup-config: para borrar todas las configuraciones del router
+no ip domain-lookup: Deshabilite la búsqueda de DNS
+copy running-config startup-config: Para guardar los cambios realizados en la configuración
+clock rate 64000: para establecer el tiempo del reloj en la interfa serial dce

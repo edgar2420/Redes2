@@ -1,0 +1,27 @@
+1.- TCP: aplicacion - transporte - internet - fisica
+    OSI: aplicacion - presentacion -sesion - transporte - Red - Enlace de datos - Fisica.
+
+2.- 
+
+3.- Número de puetos: capa de sesion  
+    Dirección MAC:    capa Fisíca
+    Dirección IP :    Capa de internet o de red
+
+4.- 5 gHz 2,5gHz
+
+5.- WPA2, WEB
+
+6.-101, 1101, 1100010, 10011100, 11111010
+
+7.-IPv4 = 32bit, IPv6 = 128 bits
+
+8.- Direccionamiento se refiere a ver de que forma 
+
+9.-
+
+10.- 192.168.0.0/24 = puede tener 254
+
+11.- la mascara de red es el que define cuantos bits de una direccion ip pertenecen al segmento de host
+
+
+

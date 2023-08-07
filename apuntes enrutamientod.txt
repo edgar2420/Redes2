@@ -1,0 +1,60 @@
+ENRUTAMIENTO EIGRP 
+
+
+ENTRAMOS EN LA CONFIGURACION GLOBAL
+
+----enable
+----    configure terminal
+
+
+ENTRAMOS O ANOTAMOS EL ENRUTAMIENTO
+
+----    route eigrp 1
+----    network 10.0.0.0    0.0.0.3
+----    exit
+----    exit
+----    
+
+................................................
+ENRUTAMIENTO OSPF
+
+
+
+ENTRAMOS EN COFIGURACION GLOBAL
+
+
+---   enable
+---   conf t
+
+
+ENTRAMOS EN LA CONFIGURACION DEL ENRUTAMIENTO
+
+
+---   router ospf 1
+---   network 10.0.0.0  0.0.0.3  area 0 
+
+
+-------------------------------------------
+
+REDES 2 APUNTES DE ENRUTAMIENTOS 
+.................................
+
+ENRUTAMIENTO RIP
+
+
+PRIMERO ENTRAMOS A CONFIGURACION GLOBAL
+
+
+---   enable
+---   configuracion terminal
+
+ANOTAMOS LA RED Y SUBRED VECINA
+
+---   router rip 
+---   version 2
+---   network 3.0.0.0
+---   network 1.0.0.0
+---   no auto-summary
+
+
+
